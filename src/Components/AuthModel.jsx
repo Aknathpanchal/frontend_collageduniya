@@ -62,7 +62,7 @@ const AuthModel = ({ open, handleClose }) => {
 
 
     const signin = (payload) => {
-        fetch("https://backend-collageduniya.vercel.app/auth/login", {
+        fetch("https://fine-crown-goat.cyclic.app/auth/login", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -89,7 +89,7 @@ const AuthModel = ({ open, handleClose }) => {
 
 
     const signup = (payload) => {
-        fetch("https://backend-collageduniya.vercel.app/auth/signup", {
+        fetch("https://fine-crown-goat.cyclic.app/auth/signup", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
